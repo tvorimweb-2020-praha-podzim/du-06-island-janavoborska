@@ -9,7 +9,7 @@
 
 
 body {
-    margin: 0;
+    margin: 50px;
     padding: 0;
     background-color: #f5f5f5;
     font-family: 'Merriweather', serif;
@@ -22,10 +22,46 @@ body {
 
 .titulek {
     font-family: 'Raleway', serif;
+    font-size: 60px;
+    color: #f5f5f5;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.perex {
+    font-size: 16px;
+    color: #f5f5f5;
+    font-style: bold;
+}
+
+.autor {
+    font-size: 16px;
+    color: #aa9f9f;
+    font-style: italic;
+}
+
+.autor::before {
+    content: "¯\(°_o)/¯";
+}
+
+.hlavicka {
+    text-align: center;
+    padding: 30px 30px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(island-hlavicka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
-/* MENU */
+
+
+    
+
+
+/* MENU 
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(images/rajcata.jpg);
+*/
 
 
 
