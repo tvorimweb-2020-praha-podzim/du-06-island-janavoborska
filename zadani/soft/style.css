@@ -53,21 +53,45 @@ body {
     background-size: cover;
 }
 
-
-
-
-    
-
+   
 
 /* MENU 
 background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(images/rajcata.jpg);
 */
 
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 60px;
+}
 
+
+
+.menu li {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid  #aa9f9f;
+    width: 100%;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+
+.menu li a {
+    font-size: 16px;
+    color: #aa9f9f;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Raleway', serif;
+}
 
 
 /* OBSAH */
 
+/*uvod*/
 
 
 
