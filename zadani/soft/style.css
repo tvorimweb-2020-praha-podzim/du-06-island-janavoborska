@@ -90,8 +90,8 @@ background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), 
 
 /*uvod*/
 
-.island1 {
-    position: center;
+.uvod img {
+    width: 50%;
 }
 
 .popisek {
@@ -99,6 +99,8 @@ background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), 
     font-family: 'Raleway', serif;
     font-size: 12px;
     color: #aa9f9f;
+}
+
 }
 
 
@@ -116,3 +118,4 @@ background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), 
     color: #aa9f9f;
     margin-left: 40px;
 }
+
