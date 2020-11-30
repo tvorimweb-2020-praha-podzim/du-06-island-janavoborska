@@ -147,7 +147,7 @@ h2 {
     padding-top:10px;
     padding-bottom: 10px;
 }
-}
+
 
 
 @media screen and (min-width: 500px) {
@@ -165,3 +165,50 @@ h2 {
 menu li a {
     font-size: 10px;
 }
+
+.uvod img,
+.proc img,
+.comusitevidet img {
+    position: relative;
+}
+
+.uvod .popisek,
+.proc .popisek,
+.comusitevidet .popisek {
+    position: absolute;
+    color: white;  
+    text-align: right;
+    margin-top: -30px;
+    padding-left: 70vw;
+}
+
+
+
+.uvod .popisek a,
+.proc .popisek a,
+.comusitevidet .popisek a {
+    color: white;
+}
+    
+   
+
+.galerie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+figure{
+    max-width: 50%;
+}
+
+figure .popisek {
+    display: none;
+}
+.popisek:hover {
+    
+}
+
+}
+
+@media screen and (min-width: 1000px) {
