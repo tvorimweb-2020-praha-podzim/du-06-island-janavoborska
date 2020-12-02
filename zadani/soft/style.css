@@ -166,27 +166,24 @@ menu li a {
     font-size: 10px;
 }
 
-.uvod img,
-.proc img,
-.comusitevidet img {
+.obal {
     position: relative;
 }
 
-.uvod .popisek,
-.proc .popisek,
-.comusitevidet .popisek {
+.obal .popisek
+
+{
     position: absolute;
     color: white;  
     text-align: right;
     margin-top: -30px;
-    padding-left: 70vw;
+    right: 0;
+    bottom: 0;
 }
 
 
 
-.uvod .popisek a,
-.proc .popisek a,
-.comusitevidet .popisek a {
+.obal a {
     color: white;
 }
     
@@ -196,6 +193,7 @@ menu li a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 figure{
@@ -204,6 +202,14 @@ figure{
 
 figure .popisek {
     display: none;
+}
+
+.foto {
+    font-size: 0;
+}
+
+.popisek {
+    font-size: 
 }
 .popisek:hover {
     
