@@ -71,28 +71,22 @@ background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), 
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .menu li {
     display: inline-block;
     text-decoration: none;
     border-bottom: 1px solid  #aa9f9f;
-    border-top: 1px solid  #aa9f9f;;
     width: 100%;
     text-align: center;
     padding-top: 3px;
     padding-bottom: 3px;
 }
 
-.prvni,
-.druhy, 
-.treti {
-    border-right: 1px solid  #aa9f9f;;
-}
 
 .menu li a {
-    font-size: 11px;
+    font-size: 12px;
     color: #aa9f9f;
     text-transform: uppercase;
     text-decoration: none;
@@ -114,6 +108,7 @@ background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), 
     font-family: 'Raleway', serif;
     font-size: 12px;
     color: #aa9f9f;
+    margin: 0;
 }
 
 p,
@@ -154,7 +149,7 @@ h2 {
     size: contain;
     text-align: center;
     padding: 0;
-    margin: 0%;
+    margin-top: 1rem;
 }
 
 .foto img {
@@ -174,12 +169,13 @@ h2 {
     max-width: auto;
     padding-top:10px;
     padding-bottom: 10px;
+    margin-top: 20px;
 }
 
 
 
-@media screen and (min-width: 500px) {
-    .menu {
+@media screen and (min-width: 550px) {
+.menu {
         display: flex;
         flex-direction: row;
         justify-content: space-betwen;
@@ -194,19 +190,27 @@ menu li a {
     font-size: 10px;
 }
 
+.menu li {
+    border-top: 1px solid  #aa9f9f;
+}
+
+.prvni,
+.druhy, 
+.treti {
+    border-right: 1px solid  #aa9f9f;;
+}
+
 .obal {
     position: relative;
 }
 
-.obal .popisek
-
-{
+.obal .popisek {
     position: absolute;
     color: white;  
     text-align: right;
-    margin-top: -30px;
     right: 0;
     bottom: 0;
+    margin-bottom: 1rem;
 }
 
 
@@ -234,6 +238,7 @@ figure .popisek {
 
 .foto {
     font-size: 0;
+    margin: 0;
 }
 
 .popisek {
