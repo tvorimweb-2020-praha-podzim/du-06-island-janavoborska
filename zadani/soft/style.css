@@ -178,7 +178,7 @@ h2 {
 .menu {
         display: flex;
         flex-direction: row;
-        justify-content: space-betwen;
+        justify-content: space-between;
     }
 
 .hlavicka,
@@ -213,14 +213,10 @@ menu li a {
     margin-bottom: 1rem;
 }
 
-
-
 .obal a {
     color: white;
 }
     
-   
-
 .galerie {
     display: flex;
     flex-direction: row;
@@ -230,6 +226,8 @@ menu li a {
 
 figure{
     max-width: 50%;
+    position: relative;
+    flex-basis: 1;
 }
 
 figure .popisek {
@@ -239,15 +237,104 @@ figure .popisek {
 .foto {
     font-size: 0;
     margin: 0;
+   
 }
 
-.popisek {
-    font-size: 
-}
-.popisek:hover {
-    
+
+figure:hover {
+    display: visible;
+    position: absolute;
+    top: ;
+    left: ;
+    transform: translate(-10%, -50%);
 }
 
 }
 
 @media screen and (min-width: 1000px) {
+
+.obsah {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    margin-top: -50px;
+}
+
+body {
+    background-color: #ebe6e6;
+    margin-top:0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+figure {
+    max-width: calc(100%/3);
+}
+
+.proc p {
+    padding-right: 250px;
+}
+
+.proc .popisek {
+    padding-right: 20px;
+}
+
+.comusitevidet p,
+.comusitevidet h2,
+.dalsiinfo p {
+    padding-left: 250px;
+}
+
+.galerie {
+    max-width: 100%;
+}
+
+.menu {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+    width: 250px;
+    padding-right: 10px;
+    float: left;
+    
+}
+
+.menu li {
+    border-bottom: 1px solid  #aa9f9f;
+    width: 150px;
+    text-align: left ;
+    padding-top: 3px;
+    padding-bottom: 3px;
+     border-top: 0;
+}
+
+
+menu li a {
+    font-size: 12px;
+}
+
+.prvni,
+.druhy, 
+.treti {
+    border-right:0;
+}
+
+.uvod p {
+    padding-top: 20px;
+    padding-left: 250px;
+}
+
+.hlavicka {
+    padding-top:0;
+    
+}
+
+.titulek {
+margin-top: 0;
+}
+
+
+}
+
+(menu -> float, text -> padding-left?)
+
