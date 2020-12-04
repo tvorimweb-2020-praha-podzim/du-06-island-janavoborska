@@ -111,6 +111,10 @@ background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), 
     margin: 0;
 }
 
+.popisek a {
+    color: #aa9f9f;
+}
+
 p,
 h2 {
     padding-left: 20px;
@@ -124,7 +128,7 @@ h2 {
 
 .proc h2::after,
 .comusitevidet h2::after,
- .fotogalerie h2::after {
+.fotogalerie h2::after {
     content: " ";
     display: block;
     background-color: rgba(59, 116, 221, 0.822);
