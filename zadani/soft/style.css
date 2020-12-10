@@ -242,18 +242,10 @@ figure .popisek {
     display: none;
 }
 
+
 .foto {
     font-size: 0;
     margin: 0;
-}
-
-
-figure:hover {
-    display: visible;
-    position: absolute;
-    top: ;
-    left: ;
-    transform: translate(-10%, -50%);
 }
 
 }
@@ -343,6 +335,18 @@ margin-top: 0;
 
 .fotogalerie {
     margin-bottom: 0;
+}
+
+.foto {
+    position: relative;
+}
+
+figure .popisek {
+    position: absolute;
+}
+.foto:hover figure .popisek {
+    bottom: 0;
+    display: visible;
 }
 
 .paticka {
