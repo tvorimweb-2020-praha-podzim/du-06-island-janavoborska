@@ -232,16 +232,16 @@ menu li a {
     margin-bottom: 30px;
 }
 
-figure{
+figure {
     max-width: 50%;
     position: relative;
     flex-basis: 1;
+    overflow: hidden;
 }
 
-figure .popisek {
-    display: none;
-}
-
+.foto .popisek {
+    position: absolute;
+  }
 
 .foto {
     font-size: 0;
@@ -268,6 +268,7 @@ body {
 
 figure {
     max-width: calc(100%/3);
+    overflow: hidden;
 }
 
 .proc p {
@@ -341,13 +342,19 @@ margin-top: 0;
     position: relative;
 }
 
+/*
 figure .popisek {
     position: absolute;
+    transition: transform 0.3s ease-in;
+    text-align: center;
+    bottom: 0;
+    padding-left: 70px;
+    transform: translateY(-100%);
 }
 .foto:hover figure .popisek {
-    bottom: 0;
-    display: visible;
+    transform: translateY(0);
 }
+*/
 
 .paticka {
     padding-left: 0;
